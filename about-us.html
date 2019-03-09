@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/about-us.css">
+    <title>Furniture City</title>
+</head>
+<body>
+    <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand text-light" href="#">Furniture City</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link text-light " href="about-us.html">About Us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="indoor.html">Indoor</a>
+                        <a class="dropdown-item" href="outdoor.html">Outdoor<span class="sr-only">(current)</a>
+                        <div class="dropdown-divider"></div>
+                       
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+              <!--about us section-->
+              <section id="about-us-section" class="bg-light text-mute py-5">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-6 mt-5">
+                              <img src="img/img5.jpeg" alt="" class="img-fluid md-3" id ="image1">
+                          </div>
+                          <div class="col-md-6 text-center mt-5">
+                              <h3><strong>About us</strong></h3>
+                              <div class="d-flex">
+                                    <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </div>
+                                    <div class="p-4 align-self-end">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, porro!
+                                    </div>
+                              </div>
+
+                              <div class="d-flex">
+                                    <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </div>
+                                    <div class="p-4 align-self-end">
+                                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, omnis?
+                                    </div>
+                              </div>
+
+                              <div class="d-flex">
+                                    <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </div>
+                                    <div class="p-4 align-self-end">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, doloremque?
+                                    </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+ 
+
+    <!--Footer-->
+    <footer id="mainfooter" class="text-center p-4">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright...&copy;<span id="year"></span><img src="img/codemaster.png" alt=""></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+            $('#year').text(new Date().getFullYear());
+         
+    </script>
+</body>
+</html>
